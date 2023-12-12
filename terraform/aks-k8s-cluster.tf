@@ -38,8 +38,8 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     client_secret = var.password
   }
 
-  role_based_access_control {
-    enabled = true
-  }
+  #role_based_access_control {
+  ##  enabled = true
+ # }
  
 }
